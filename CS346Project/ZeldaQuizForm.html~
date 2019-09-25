@@ -1,0 +1,464 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+	<head>
+		<title> The Great Zelda Personality Inventory </title>
+	    <!-- Zelda Personality Inventory -->
+	    <meta charset = "UTF-8">
+	    <meta name = "description" content = "Zelda Personality Inventory">
+	    <meta name = "keywords" content = "legend_of_zelda, personality, character, quiz">
+	    <meta name="author" content="Mayo" >
+		<link rel = "stylesheet" type = "text/css" href = "ZeldaQuiz.css">
+	</head>
+	<h1 id = "homeHead">
+		The Great Zelda Personality Inventory
+	</h1>
+	<div id = "navMenu">
+		<h4>
+			Current Character Results
+		</h4>
+		<ul>
+			<li> <a href = "Link.html"> Link </a></li>
+			<li> <a href = "Navi.html"> Navi </a></li>
+			<li> <a href = "Zelda.html"> Princess Zelda </a></li>
+			<li> <a href = "Ganondorf.html"> Ganondorf </a></li>
+			<li> <a href = "Rauru.html"> Rauru </a></li>
+			<li> <a href = "Saria.html"> Saria </a></li>
+			<li> <a href = "Darunia.html"> Darunia </a></li>
+			<li> <a href = "Ruto.html"> Princess Ruto </a></li>
+			<li> <a href = "Impa.html"> Impa </a></li>
+			<li> <a href = "Nabooru.html"> Nabooru </a></li>
+		</ul>
+	</div>
+	<div>
+		<form id = "QuizForm" method = "POST">
+			<!-- Question #1 -->
+			<p>
+				#1 For starters, everyone's favorite quiz question: which of these colors/shades most appeals to you?
+				<br />
+				<br />
+	         <input type = "radio"> Pine Green
+	         <br />
+	         <br />
+	         <input type = "radio"> Red
+	         <br />
+	         <br />
+	         <input type = "radio"> Aqua Blue
+	         <br />
+	         <br />
+	         <input type = "radio"> Black
+	         <br />
+	         <br />
+	         <input type = "radio"> Orange
+	         <br />
+	         <br />
+	         <input type = "radio"> Forest Green
+	         <br />
+	         <br />
+	         <input type = "radio"> White
+	         <br />
+	         <br />
+	         <input type = "radio"> Sky Blue
+	         <br />
+	         <br />
+	         <input type = "radio"> Purple
+	         <br />
+	         <br />
+	         <input type = "radio"> Yellow
+	         <br />	
+			</p>
+			<!-- Question #2 -->
+			<p>
+				#2 Next, how would people describe your personality?
+				<br />
+				<br />
+	         <input type = "radio"> Gutsy, proud, and passionate
+	         <br />
+	         <br />
+	         <input type = "radio"> Cunning and ambitious
+	         <br />
+	         <br />
+	         <input type = "radio"> Quick-witted and dutiful
+	         <br />
+	         <br />
+	         <input type = "radio"> Clingy, but kind and caring
+	         <br />
+	         <br />
+	         <input type = "radio"> Sensitive and friendly
+	         <br />
+	         <br />
+	         <input type = "radio"> Staunch and hard-nosed, but loyal and selfless
+	         <br />
+	         <br />
+	         <input type = "radio"> Brave, determined, selfless
+	         <br />
+	         <br />
+	         <input type = "radio"> Wise, knowledgeable, and protective
+	         <br />
+	         <br />
+	         <input type = "radio"> A little bit arrogant, but assertive and dutiful
+	         <br />
+	         <br />
+	         <input type = "radio"> Bold, crafty, and rebellious
+	         <br />	
+			</p>
+			<!-- Question #3 -->
+			<p>
+				#3 What sort of locale would you prefer to live in ?
+				<br />
+				<br />
+	         <input type = "radio"> In the middle of a big, bustling city
+	         <br />
+	         <br />
+	         <input type = "radio"> In a monastery
+	         <br />
+	         <br />
+	         <input type = "radio"> Someplace warm and sandy
+	         <br />
+	         <br />
+	         <input type = "radio"> Somewhere out in the country, away from the noise of the city
+	         <br />
+	         <br />
+	         <input type = "radio"> In a coastal town overlooking the sea
+	         <br />
+	         <br />
+	         <input type = "radio"> In a city of my own design
+	         <br />
+	         <br />
+	         <input type = "radio"> In a nice cabin in the middle of the woods
+	         <br />
+	         <br />
+	         <input type = "radio"> Somewhere high up in the mountains
+	         <br />
+	         <br />
+	         <input type = "radio"> Wherever the guy out in the country is
+	         <br />
+	         <br />
+	         <input type = "radio"> In a secluded suburb of a city
+	         <br />	
+			</p>
+			<!-- Question #4 -->
+			<p>
+				#4 Out of the following, what is your favorite movie genre or sub-genre?
+				<br />
+				<br />
+	         <input type = "radio"> Fantasy
+	         <br />
+	         <br />
+	         <input type = "radio"> Horror
+	         <br />
+	         <br />
+	         <input type = "radio"> Romantic comedy
+	         <br />
+	         <br />
+	         <input type = "radio"> Nature documentaries
+	         <br />
+	         <br />
+	         <input type = "radio"> Spy films
+	         <br />
+	         <br />
+	         <input type = "radio"> Political drama
+	         <br />
+	         <br />
+	         <input type = "radio"> Swashbuckler
+	         <br />
+	         <br />
+	         <input type = "radio"> Hard science-fiction
+	         <br />
+	         <br />
+	         <input type = "radio"> Action thriller
+	         <br />
+	         <br />
+	         <input type = "radio"> Snuff films
+	         <br />	
+			</p>
+			<!-- Question #5 -->
+			<p>
+				#5 Which of these would you have for a pet?
+				<br />
+				<br />
+	         <input type = "radio"> A fennec fox
+	         <br />
+	         <br />
+	         <input type = "radio"> A horse
+	         <br />
+	         <br />
+	         <input type = "radio"> A hellhound
+	         <br />
+	         <br />
+	         <input type = "radio"> A chameleon
+	         <br />
+	         <br />
+	         <input type = "radio"> The animals in the forest are like my pets
+	         <br />
+	         <br />
+	         <input type = "radio"> A saluki (elegant Middle-Eastern hunting dog)
+	         <br />
+	         <br />
+	         <input type = "radio"> A beautiful, exotic fish
+	         <br />
+	         <br />
+	         <input type = "radio"> I am a pet!
+	         <br />
+	         <br />
+	         <input type = "radio"> A great-horned owl
+	         <br />
+	         <br />
+	         <input type = "radio"> A pet rock
+	         <br />	
+			</p>
+			<!-- Question #6 -->
+			<p>
+				#6 Which of these locations piques your interest the most?
+				<br />
+				<br />
+	         <input type = "radio"> A sacred brick temple eternally bathed in sunlight
+	         <br />
+	         <br />
+	         <input type = "radio"> A sinister yet regal-looking castle floating over a lake of lava
+	         <br />
+	         <br />
+	         <input type = "radio"> A beautiful but eerie stronghold deep in the woods, haunted by spirits and undead
+	         <br />
+	         <br />
+	         <input type = "radio"> A magnificent castle with lush gardens and many running waterways
+	         <br />
+	         <br />
+	         <input type = "radio"> An enchanting, mystical stone temple set far out in the desert
+	         <br />
+	         <br />
+	         <input type = "radio"> Inside of a giant, personified tree
+	         <br />
+	         <br />
+	         <input type = "radio"> An ominous crypt and execution ground, haunted by all manner of dark creatures
+	         <br />
+	         <br />
+	         <input type = "radio"> A brilliant, trap-filled temple built into a series of volcanic caverns
+	         <br />
+	         <br />
+	         <input type = "radio"> A peaceful, wide-open horse ranch
+	         <br />
+	         <br />
+	         <input type = "radio"> A serene, complex temple submerged in water and built into a lake bed
+	         <br />	
+			</p>
+			<!-- Question #7 -->
+			<p>
+				#7 Which set of equipment most appeals to you?
+				<br />
+				<br />
+	         <input type = "radio"> Bow and arrows and a grappling hook
+	         <br />
+	         <br />
+	         <input type = "radio"> A legendary sword and a magical instrument that can manipulate the flow of time
+	         <br />
+	         <br />
+	         <input type = "radio"> A mystical artifact that lets one see through deception and boots that let one float over air
+	         <br />
+	         <br />
+	         <input type = "radio"> Flame-resistant clothing and a powerful hammer that can cause tremors and smash boulders
+	         <br />
+	         <br />
+	         <input type = "radio"> Nothing
+	         <br />
+	         <br />
+	         <input type = "radio"> Black magic and a horde of evil followers
+	         <br />
+	         <br />
+	         <input type = "radio"> A diving suit and a longer grappling hook
+	         <br />
+	         <br />
+	         <input type = "radio"> Holy magic and ninja training
+	         <br />
+	         <br />
+	         <input type = "radio"> Gauntlets that give one incredible physical strength and a shield that deflects magic
+	         <br />
+	         <br />
+	         <input type = "radio"> Arrows of light
+	         <br />	
+			</p>
+			<!-- Question #8 -->
+			<p>
+				#8 Complete this statement: A man walks into a bar and...
+				<br />
+				<br />
+	         <input type = "radio"> Eyes the cutie at the other side of the bar
+	         <br />
+	         <br />
+	         <input type = "radio"> Orders a cold one
+	         <br />
+	         <br />
+	         <input type = "radio"> Walks right back out
+	         <br />
+	         <br />
+	         <input type = "radio"> Pulls out a book
+	         <br />
+	         <br />
+	         <input type = "radio"> Compares it to the last bar he walked into
+	         <br />
+	         <br />
+	         <input type = "radio"> Says "Ow!"
+	         <br />
+	         <br />
+	         <input type = "radio"> Threatens to buy the place out
+	         <br />
+	         <br />
+	         <input type = "radio"> Has one with the guys
+	         <br />
+	         <br />
+	         <input type = "radio"> Is too young to go into a bar
+	         <br />
+	         <br />
+	         <input type = "radio"> Nobody realizes it
+	         <br />	
+			</p>
+			<!-- Question #9 -->
+			<p>
+				#9 Time for some role-playing! If you were on an adventure, how would you most likely meet your end, if ever?
+				<br />
+				<br />
+	         <input type = "radio"> Dying while fighting valiantly in battle
+	         <br />
+	         <br />
+	         <input type = "radio"> Purged by holy light
+	         <br />
+	         <br />
+	         <input type = "radio"> Crushed like an insect
+	         <br />
+	         <br />
+	         <input type = "radio"> Incinerated
+	         <br />
+	         <br />
+	         <input type = "radio"> Falling down a bottomless pit
+	         <br />
+	         <br />
+	         <input type = "radio"> Swallowed by darkness
+	         <br />
+	         <br />
+	         <input type = "radio"> Trapped under a frozen lake
+	         <br />
+	         <br />
+	         <input type = "radio"> Eaten by a monster in lurking the woods
+	         <br />
+	         <br />
+	         <input type = "radio"> Drowning in quicksand
+	         <br />
+	         <br />
+	         <input type = "radio"> Dying of old age
+	         <br />	
+			</p>
+			<!-- Question #10 -->
+			<p>
+				#10 What do you spend your time doing when you're not busy saving/conquering the world?
+				<br />
+				<br />
+	         <input type = "radio"> Bombchu bowling (crawling bomb that looks like a mouse)
+	         <br />
+	         <br />
+	         <input type = "radio"> Playing my favorite instrument in my special place
+	         <br />
+	         <br />
+	         <input type = "radio"> Going to the town shooting gallery
+	         <br />
+	         <br />
+	         <input type = "radio"> Riding my horse
+	         <br />
+	         <br />
+	         <input type = "radio"> Playing bomb-sketball
+	         <br />
+	         <br />
+	         <input type = "radio"> Plotting to conquer the world
+	         <br />
+	         <br />
+	         <input type = "radio"> Nagging my friends
+	         <br />
+	         <br />
+	         <input type = "radio"> Waterfall diving
+	         <br />
+	         <br />
+	         <input type = "radio"> Horseback archery
+	         <br />
+	         <br />
+	         <input type = "radio"> Dying of old age
+	         <br />	
+			</p>
+			<!-- Question #11 -->
+			<p>
+				#11 You're about to be attacked by a flock of angry chickens! What do you do!?
+				<br />
+				<br />
+	         <input type = "radio"> Face them head-on, I'm too strong to be taken down by a bunch of chickens!
+	         <br />
+	         <br />
+	         <input type = "radio"> Run like hell until they give up the chase
+	         <br />
+	         <br />
+	         <input type = "radio"> Coerce someone else into distracting them while you run away
+	         <br />
+	         <br />
+	         <input type = "radio"> They won't be angry for long, they just need someone to sooth them
+	         <br />
+	         <br />
+	         <input type = "radio"> Hide under someone's hat
+	         <br />
+	         <br />
+	         <input type = "radio"> Transform into a bird and fly to safety
+	         <br />
+	         <br />
+	         <input type = "radio"> I'm solid as a rock! They can't hurt me!
+	         <br />
+	         <br />
+	         <input type = "radio"> Use magic to fry them all and eat them afterward
+	         <br />
+	         <br />
+	         <input type = "radio"> Cast a barrier spell to keep them at bay
+	         <br />
+	         <br />
+	         <input type = "radio"> Lose them with stealth and agility
+	         <br />	
+			</p>
+			<!-- Question #12 -->
+			<p>
+				#12 Congrats! You made it to the end! So... did you enjoy taking the quiz?
+				<br />
+				<br />
+	         <input type = "radio"> Yeah, it was pretty fun!
+	         <br />
+	         <br />
+	         <input type = "radio"> You will make another quiz, even greater than the last! I command it!
+	         <br />
+	         <br />
+	         <input type = "radio"> Hmph. I suppose I enjoyed it a little. Don't, get the wrong idea.
+	         <br />
+	         <br />
+	         <input type = "radio"> Yes, it was most enlightening.
+	         <br />
+	         <br />
+	         <input type = "radio"> I'm getting too old for these things...
+	         <br />
+	         <br />
+	         <input type = "radio"> I have more important things to do than taking silly quizzes.
+	         <br />
+	         <br />
+	         <input type = "radio"> You bet, brother!
+	         <br />
+	         <br />
+	         <input type = "radio"> Hey! Listen! Yes I did!!
+	         <br />
+	         <br />
+	         <input type = "radio"> Indeed I did! Thank you very much!
+	         <br />
+	         <br />
+	         <input type = "radio"> Do YOU think I enjoyed it?
+	         <br />	
+			</p>
+		</form>
+	</div>
+	<br />
+	<a href = "ZeldaQuizHome.html"> Home </a>
+	<br />
+	<br />
+	<span class = "backgroundCredit"> *Background by wallrun@deviantart.com </span>
+	<br />
+	<br />
+	<a href = "http://validator.w3.org/check/referer">Validate Me</a>
+</html>

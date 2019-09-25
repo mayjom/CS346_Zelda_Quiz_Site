@@ -1,0 +1,179 @@
+body{
+	background: #52AB52; /* for gradient-less browsers */
+	background: -webkit-radial-gradient(circle, #0EA40E, #52AB52); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(circle, #0EA40E, #52AB52); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(circle, #0EA40E, #52AB52); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(circle, #0EA40E, #52AB52); /* Standard syntax */
+}
+body::after{
+	content: "";
+	background: url("images/triforce_in_gold_by_wallrun-d4uf5kd.png");
+	background-size: 100%, 100%;
+	opacity: 0.15;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
+}
+embed{
+	width: 850px;
+	height: 600px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	color: #E8CE23;
+	background-color: #106825;
+	white-space:nowrap;
+	border: 2px ridge #EDE5AD;
+}
+footer{
+	color: #E8CE23;
+}
+#homeHead{
+	color: #E8CE23;
+	background-color: #106825;
+	white-space:nowrap;
+	border: 2px ridge #E8CE23;
+}
+#navMenu{
+	border: 2px ridge #EDE5AD;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	padding-right: 10px;
+	position: relative;
+	left: 10px;
+	top: 20px;
+	display: inline-block;
+	vertical-align: top;
+	color: #E8CE23;
+	background-color: #106825;
+	opacity: 0.85;
+}
+#intro{
+	border: 2px ridge #EDE5AD;
+	text-align: center;
+	color: #E8CE23;
+	position: relative;
+	left: 20px;
+	top: 20px;
+	display: inline-block;
+	vertical-align: top;
+	width: 720px;
+	background-color: #106825;
+	opacity: 0.85;
+}
+#login{
+	border: 2px ridge #EDE5AD;
+	text-align: left;
+	padding-left: 20px;
+	color: #E8CE23;
+	position: relative;
+	left: 30px;
+	top: 20px;
+	display: inline-block;
+	vertical-align: top;
+	width: 320px;
+	background-color: #106825;
+	opacity: 0.85;
+}
+#quizForm, #quizPar{
+	font-size: 16pt;
+}
+#spann{
+	color: #E8CE23;
+}
+a{
+	color: #53F45E;
+}
+a:hover{
+	color: blue;
+}
+a:visited{
+	color: purple;
+}
+p{
+	border: 2px ridge #EDE5AD;
+	vertical-align: top;
+	color: #E8CE23;
+	background-color: #106825;
+	opacity: 0.85;
+}
+figure{
+	display: inline-block;
+	color: #E8CE23;
+	border: 2px ridge #EDE5AD;
+	vertical-align: top;
+	background-color: #106825;
+	border-collapse: collapse;
+}
+.headAnchor{
+	text-decoration: none;
+}
+.butt{
+	color: #E8CE23;
+	position: relative;
+	width: 120px;
+	height: 40px;
+	font-weight: bold;
+	display: inline-block;
+	background: #1AA824; /* for gradient-less browsers */
+	background: -webkit-linear-gradient(#A3FFA9, #0EA40E, #0C7213); /* Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#A3FFA9, #0EA40E, #0C7213); /* For Opera 11.6 to 12.0 */
+    background: -moz-linear-gradient(#A3FFA9, #0EA40E, #0C7213); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#A3FFA9, #0EA40E, #0C7213); /* Standard syntax */
+}
+.butt:hover{
+	color: blue;
+}
+.image{
+	height: 450px;
+}
+.dueCredit{
+	font-size: 12px;
+}
+.backgroundCredit{
+	font-size: 14px;
+	color: #E8CE23;
+	opacity: 0.85;
+}
+.charName{
+	color: #E8CE23;
+	background-color: #106825;
+	white-space:nowrap;
+	border: 2px ridge #E8CE23;
+	opacity: 0.85;
+}
+.questionHeader{
+	font-size: 28pt;
+	text-decoration: underline;
+}
+.stats{
+	font-size: 18px;
+	color: #E8CE23;
+	text-align: center;
+	list-style-type: none;
+}
+.vid{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	width: 480px;
+	height: 380px;
+}
+.videoHead{
+	display: block;
+	text-align: center;
+	font-size: 20pt;
+	font-weight: bold;
+	color: #E8CE23;
+}
+.phpeabody{
+	color: #E8CE23;
+}
